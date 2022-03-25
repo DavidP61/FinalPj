@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Magellano - NFT Marketplace Website Template by Ansonika" />
+    <meta name="author" content="Ansonika" />
+    <title>Final PJ</title>
+
+    <!-- FAVICONS-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png" />
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png" />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="114x114"
+      href="img/apple-touch-icon-114x114-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="144x144"
+      href="img/apple-touch-icon-144x144-precomposed.png"
+    />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- SPECIFIC CSS -->
+    <link href="css/home.css" rel="stylesheet" />
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="preloader"><div data-loader="circle-side"></div></div>
+    <!-- /Page Preload -->
+
+    <header class="header_in clearfix element_to_stick">
+      <div class="layer"></div>
+      <!-- Opacity Mask Menu Mobile -->
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.svg" alt="" width="140" height="35" class="dark" />
+            <img src="img/logo-light-mode.svg" alt="" width="140" height="35" class="light" />
+          </a>
+        </div>
+        <ul class="top_menu">
+          <li><a href="#" class="btn_access">My page</a></li>
+        </ul>
+        <!-- /top_menu -->
+        <a href="#0" class="open_close"> <i class="bi bi-list"></i><span>Menu</span> </a>
+        <nav class="main-menu">
+          <div id="header_menu">
+            <a href="#0" class="open_close">
+              <i class="bi bi-x"></i>
+            </a>
+            <a href="index.html" class="logo_menu">
+              <img
+                src="img/logo-placeholder.png"
+                data-src="img/logo.svg"
+                alt=""
+                width="120"
+                height="30"
+                class="dark lazy"
+              />
+            </a>
+          </div>
+          <ul>
+            <li class="submenu">
+              <a href="#0" class="show-submenu">Home</a>
+            </li>
+            <li class="submenu">
+              <a href="#0" class="show-submenu">Explore</a>
+            </li>
+            <li class="submenu">
+              <a href="#0" class="show-submenu">Like</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+    <main>
+      <div id="carousel-home-2">
+        <section id="slider">
+          <input type="radio" name="slider" id="s1" checked />
+          <input type="radio" name="slider" id="s2" />
+          <input type="radio" name="slider" id="s3" />
+          <input type="radio" name="slider" id="s4" />
+          <input type="radio" name="slider" id="s5" />
+          <label for="s1" id="slide1">
+            <img
+              src="http://img2.sbs.co.kr/img/sbs_cms/WE/2022/03/22/7Oe1647911592739-640-360.jpg"
+              height="100%"
+              width="100%"
+            />
+          </label>
+          <label for="s2" id="slide2">
+            <img
+              src="https://blog.kakaocdn.net/dn/Mu6Mi/btrtYT5zF58/XkNRCi69U7E9NTVObGMNv1/img.jpg"
+              height="100%"
+              width="100%"
+            />
+          </label>
+          <label for="s3" id="slide3">
+            <img
+              src="https://w.namu.la/s/66b8f65f563a51479cb9f2de5e9837c0efe4cc4122d8d0c9d3008c496a2e6067ea12a4d8f86aac0196931427978300f7581afcdf0201dca2798eb528e6fdd57877a94c8d046c9a93f288be675d478318fe8796a67bf1d0a60e8a3e466a5a88b6"
+              height="100%"
+              width="100%"
+            />
+          </label>
+
+          <label for="s4" id="slide4">
+            <img
+              src="https://w.namu.la/s/f9bc2e6b2ee45dbee1ea5917dbe46206738d4a7f15ec57671c8b82a9e013eecfabc1faa745996d5680ae452f54389488994feaf46cac271d2b85d075e3a1800f8db6e88f1f23afe9685a8199cb7f2921b68ac0b405c04c7e31fe736d0b9df3e4"
+              height="100%"
+              width="100%"
+            />
+          </label>
+          <label for="s5" id="slide5">
+            <img
+              src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABR4L8G54T8GkBItYHSXueBQHEw8PG6qsmtXfEMn7FnFTvCAg9XPleIdx4mJcG74-oUaav-dnv_Tk0oaKZI34HTYfyHWnxdvWDTzI-9pKP9t-iOCwa9JfFx62i3G-lQ.jpg?r=748"
+              height="100%"
+              width="100%"
+            />
+          </label>
+        </section>
+      </div>
+
+      <!--/carousel-->
+      <div class="bg_gray">
+        <div class="container margin_120_90" style="padding-top: 90px;">
+          <div class="main_title version_2">
+            <span><em></em></span>
+            <h2>지금 뜨는 콘텐츠</h2>
+          </div>
+          <!-- /main_title -->
+          <div class="row author_list">
+            <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+              <a href="author.html" class="author">
+                <strong>1</strong>
+                <div class="author_thumb veryfied">
+                  <!-- <i class="bi bi-check"></i> -->
+                  <figure>
+                    <img
+                      src="https://images.justwatch.com/poster/262548358/s592/sanae-majseon"
+                      alt=""
+                      class="lazy"
+                      width="100"
+                      height="100"
+                    />
+                  </figure>
+                </div>
+                <div>
+                  <h6>사내맞선</h6>
+                  <span><img src="img/Netflix2.png" width="20px" alt="" /></span>
+                  <span><img src="img/wavve.webp"width="20px"></span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+              <a href="author.html" class="author">
+                <strong>2</strong>
+                <div class="author_thumb veryfied">
+                  <!-- <i class="bi bi-check"></i> -->
+                  <figure>
+                    <img
+                      src="img/avatar-placeholder.png"
+                      data-src="https://images.justwatch.com/poster/262548358/s592/sanae-majseon"
+                      alt=""
+                      class="lazy"
+                      width="100"
+                      height="100"
+                    />
+                  </figure>
+                </div>
+                <div>
+                  <h6>사내맞선</h6>
+                  <span><img src="" alt="" /></span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+              <a href="author.html" class="author">
+                <strong>3</strong>
+                <div class="author_thumb veryfied">
+                  <!-- <i class="bi bi-check"></i> -->
+                  <figure>
+                    <img
+                      src="img/avatar-placeholder.png"
+                      data-src="https://images.justwatch.com/poster/262548358/s592/sanae-majseon"
+                      alt=""
+                      class="lazy"
+                      width="100"
+                      height="100"
+                    />
+                  </figure>
+                </div>
+                <div>
+                  <h6>사내맞선</h6>
+                  <span><img src="" alt="" /></span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+              <a href="author.html" class="author">
+                <strong>4</strong>
+                <div class="author_thumb veryfied">
+                  <!-- <i class="bi bi-check"></i> -->
+                  <figure>
+                    <img
+                      src="img/avatar-placeholder.png"
+                      data-src="https://images.justwatch.com/poster/262548358/s592/sanae-majseon"
+                      alt=""
+                      class="lazy"
+                      width="100"
+                      height="100"
+                    />
+                  </figure>
+                </div>
+                <div>
+                  <h6>사내맞선</h6>
+                  <span><img src="" alt="" /></span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+              <a href="author.html" class="author">
+                <strong>5</strong>
+                <div class="author_thumb veryfied">
+                  <!-- <i class="bi bi-check"></i> -->
+                  <figure>
+                    <img
+                      src="img/avatar-placeholder.png"
+                      data-src="https://images.justwatch.com/poster/262548358/s592/sanae-majseon"
+                      alt=""
+                      class="lazy"
+                      width="100"
+                      height="100"
+                    />
+                  </figure>
+                </div>
+                <div>
+                  <h6>사내맞선</h6>
+                  <span><img src="" alt="" /></span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+              <a href="author.html" class="author">
+                <strong>6</strong>
+                <div class="author_thumb veryfied">
+                  <!-- <i class="bi bi-check"></i> -->
+                  <figure>
+                    <img
+                      src="img/avatar-placeholder.png"
+                      data-src="https://images.justwatch.com/poster/262548358/s592/sanae-majseon"
+                      alt=""
+                      class="lazy"
+                      width="100"
+                      height="100"
+                    />
+                  </figure>
+                </div>
+                <div>
+                  <h6>사내맞선</h6>
+                  <span><img src="" alt="" /></span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+              <a href="author.html" class="author">
+                <strong>7</strong>
+                <div class="author_thumb veryfied">
+                  <!-- <i class="bi bi-check"></i> -->
+                  <figure>
+                    <img
+                      src="img/avatar-placeholder.png"
+                      data-src="https://images.justwatch.com/poster/262548358/s592/sanae-majseon"
+                      alt=""
+                      class="lazy"
+                      width="100"
+                      height="100"
+                    />
+                  </figure>
+                </div>
+                <div>
+                  <h6>사내맞선</h6>
+                  <span><img src="" alt="" /></span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+              <a href="author.html" class="author">
+                <strong>8</strong>
+                <div class="author_thumb veryfied">
+                  <!-- <i class="bi bi-check"></i> -->
+                  <figure>
+                    <img
+                      src="img/avatar-placeholder.png"
+                      data-src="https://images.justwatch.com/poster/262548358/s592/sanae-majseon"
+                      alt=""
+                      class="lazy"
+                      width="100"
+                      height="100"
+                    />
+                  </figure>
+                </div>
+                <div>
+                  <h6>사내맞선</h6>
+                  <span><img src="" alt="" /></span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+              <a href="author.html" class="author">
+                <strong>9</strong>
+                <div class="author_thumb veryfied">
+                  <!-- <i class="bi bi-check"></i> -->
+                  <figure>
+                    <img
+                      src="img/avatar-placeholder.png"
+                      data-src="https://images.justwatch.com/poster/262548358/s592/sanae-majseon"
+                      alt=""
+                      class="lazy"
+                      width="100"
+                      height="100"
+                    />
+                  </figure>
+                </div>
+                <div>
+                  <h6>사내맞선</h6>
+                  <span><img src="" alt="" /></span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- /row -->
+    <footer>
+      <div class="container">
+        <div class="row add_bottom_25">
+          <div class="col-md-6">
+            <ul class="footer-selector clearfix">
+              <li>
+                <div class="styled-select lang-selector">
+                  <select>
+                    <option value="English">English</option>
+                    <option value="Korean" selected>Korean</option>
+                  </select>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="additional_links">
+              <li><a href="#0">Terms and conditions</a></li>
+              <li>© 2022 Final PJ</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/footer-->
+
+    <div id="toTop"></div>
+    <!-- Back to top button -->
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/common_func.js"></script>
+    <!-- SPECIFIC SCRIPTS -->
+    <script src="js/carousel-home.js"></script>
+  </body>
+</html>
