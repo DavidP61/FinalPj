@@ -49,9 +49,9 @@ Author URI: http://themeforest.net/user/Ansonika/
   --gradient-color-end: #ff001d;
   --background-color-1: #18141a;
   --background-color-2: #201d24;
-  --color-1: #ff0071;
-  --color-2: #ff001d;
-  --color-3: #48e0a4;
+  --color-1: #7e2ad1;
+  --color-2: #ffffff;
+  --color-3: #fafafa;
   --color-4: #fafafa;
   /* Typography */
   --body-text-color: #ccc;
@@ -69,22 +69,21 @@ Author URI: http://themeforest.net/user/Ansonika/
   --border-radius-circle: 50%;
 }
 
-:root .light-theme {
+ :root .light-theme {
   /* Base Colors */
-  --body-background: #f8f8f8;
-  --border-color-1: #ededed;
-  --border-color-2: #ddd;
-  --background-color-1: #f8f8f8;
-  --background-color-2: #fff;
-  --color-1: #ff0071;
-  --color-2: #ff001d;
-  --color-3: #3dbf8c;
-  --color-4: #555;
+  --body-background: #18141a;
+  --border-color-1: #36313d;
+  --border-color-2: #d2d8dd;
+  --background-color-1: #18141a;
+  --background-color-2: #201d24;
+  --color-1: #7e2ad1;
+  --color-2: #ffffff;
+  --color-3: #fafafa;
+  --color-4: #fafafa;
   /* Typography */
-  --body-text-color: #666;
+  --body-text-color: #ccc;
   --heading-color: #222;
 }
-
 /*============================================================================================*/
 /* 2. ICONS */
 /*============================================================================================*/
@@ -9994,7 +9993,7 @@ img.mfp-img {
 }
 
 /*-------- 5.11 Light Dark/Mode--------*/
-.light-theme {
+/* .light-theme { */
   /* heaader */
   /* heaader_in */
   /* author list home */
@@ -10002,8 +10001,8 @@ img.mfp-img {
   /* listing pages */
   /* footer */
   /* forms + misc + tables */
-}
-.light-theme .header .logo .dark {
+/* } */
+/* .light-theme .header .logo .dark {
   display: inline-block;
 }
 .light-theme .header .logo .light {
@@ -10221,7 +10220,7 @@ img.mfp-img {
 }
 .light-theme .logo_account .light {
   display: inline-block;
-}
+} */
 
 /* dark theme */
 .dark-theme .logo .light {
