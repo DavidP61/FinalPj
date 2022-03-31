@@ -484,6 +484,13 @@ input[type='radio'] {
 .explore-category .excat-item a {
   height: 100%;
 }
+.mt-auto{
+  padding: 20px;
+  background-color: #18141a;
+}
+.mt-auto .text-center{
+  margin: 0;
+}
 /*======================================================
 
 ***************** test *****************
