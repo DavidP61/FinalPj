@@ -124,7 +124,7 @@ input[type='radio'] {
 
 /*======================================================
 
-***************** Home-2 Css  *****************
+***************** 포스터 움직임  *****************
 
 ========================================================*/
 .banner-section {
@@ -317,7 +317,8 @@ input[type='radio'] {
   font-size: 1rem;
   transform-origin: right;
   transition: all 0.3s ease;
-  background: linear-gradient(315deg, #b289db 0%, #7e2ad1 74%);
+  /* background: linear-gradient(315deg, #db89d0 0%, #7e2ad1 74%); */
+  background-color: #7e2ad1;
   font-weight: bold;
 }
 @media (min-width: 768px) {
@@ -335,7 +336,6 @@ input[type='radio'] {
   line-height: 40px;
   font-size: 0.875rem;
 }
-
 
 .footer-link-item .footer-link-list .footer-link,
 .footer-top form,
@@ -483,4 +483,51 @@ input[type='radio'] {
 .preloader,
 .explore-category .excat-item a {
   height: 100%;
+}
+/*======================================================
+
+***************** test *****************
+
+========================================================*/
+.container{
+  padding: 24px;
+}
+.main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 90%;
+  border-radius: .3rem!important;
+  object-fit: cover;
+}
+.blog img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.container-recommend {
+  padding-top: 24px;
+}
+
+.px-3 .text-center h1,
+h3,
+p {
+  margin: 0;
+  padding: 7px;
+}
+
+.highlight {
+  background-color: #7e2ad1;
+  background: linear-gradient(to right, #d466cb 0%, #7e2ad1 40%);
+}
+.px-3 .text-center{
+  padding-bottom: 20px ;
+}
+.px-3 a{
+  padding: 15px;
+  background-color: #7e2ad1;
+  color: #fff;
 }
