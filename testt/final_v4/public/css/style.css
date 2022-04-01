@@ -107,6 +107,12 @@ Author URI: http://themeforest.net/user/Ansonika/
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/*.ott_name{*/
+/*  margin-top: 30px;*/
+/*}*/
+
+
 .bi-alarm-fill::before {
   content: "\f101";
 }
@@ -3061,14 +3067,18 @@ Author URI: http://themeforest.net/user/Ansonika/
 
 .bi-gear-wide-connected::before {
   content: "\f3e3";
+
 }
 
 .bi-gear-wide::before {
   content: "\f3e4";
+
 }
 
 .bi-gear::before {
   content: "\f3e5";
+  padding-bottom: 9px;
+
 }
 
 .bi-gem::before {
@@ -5725,7 +5735,7 @@ h6 {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 strong {
@@ -5747,7 +5757,8 @@ hr {
 
 /*General links color*/
 a {
-  color: var(--color-3);
+  /*color: var(--color-3);*/
+  color: #FEE500;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
