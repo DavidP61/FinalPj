@@ -5691,16 +5691,14 @@ html * {
   -moz-osx-font-smoothing: grayscale;
 }
 @font-face {
-  font-family: 'KoPubDotumMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'KoPubWorld';
+  src:url("../font/KoPubWorld Dotum_Pro Medium.otf")
 }
 body {
   background-color: var(--body-background);
   font-size: 14px;
   font-size: 0.875rem;
-  font-family: 'KoPubDotumMedium', sans-serif;
+  font-family: 'KoPubWorld';
   color: var(--body-text-color);
 }
 
