@@ -41,9 +41,9 @@ const Login = () => {
                 {/*</a>*/}
               </div>
             </Link>
-            <Link to="#0" className="btn_1 full-width">
-              Login
-            </Link>
+            {/*<Link to="#0" className="btn_1 full-width">*/}
+            {/*  Login*/}
+            {/*</Link>*/}
             <div className="text-center add_top_10">
               New to OTT?{" "}
               <strong>

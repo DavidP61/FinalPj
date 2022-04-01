@@ -13,7 +13,7 @@ import TestPage from "../routes/TestPage";
 const AppRouter = () => {
   return (
     <Router>
-      {/*<Header></Header>*/}
+      <Header></Header>
       <Routes>
         <Route path="/" element={<TestPage />}></Route>
         <Route path="/testPage" element={<TestPage />}></Route>
@@ -24,7 +24,7 @@ const AppRouter = () => {
         <Route path="/myPage" element={<MyPage />}></Route>
         <Route path="/editProfile" element={<EditProfile />}></Route>
       </Routes>
-      {/*<Footer></Footer>*/}
+      <Footer></Footer>
     </Router>
   );
 };
