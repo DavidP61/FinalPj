@@ -69,21 +69,7 @@ Author URI: http://themeforest.net/user/Ansonika/
   --border-radius-circle: 50%;
 }
 
- :root .light-theme {
-  /* Base Colors */
-  --body-background: #18141a;
-  --border-color-1: #36313d;
-  --border-color-2: #d2d8dd;
-  --background-color-1: #18141a;
-  --background-color-2: #201d24;
-  --color-1: #7e2ad1;
-  --color-2: #ffffff;
-  --color-3: #fafafa;
-  --color-4: #fafafa;
-  /* Typography */
-  --body-text-color: #ccc;
-  --heading-color: #222;
-}
+ 
 /*============================================================================================*/
 /* 2. ICONS */
 /*============================================================================================*/
@@ -7389,7 +7375,7 @@ ul.top_menu > li a.btn_access:hover {
   font-weight: 500;
   font-size: 16px;
   font-size: 1rem;
-  color: var(--heading-color);
+  color: #fff;
   margin-bottom: 5px;
 }
 .author_list a.author .author_thumb {
