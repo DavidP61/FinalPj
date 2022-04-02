@@ -5,20 +5,7 @@ const EditProfile = () => {
   return (
     <div>
       <main>
-        <div
-          className="hero_single inner_pages author_page jarallax"
-          data-jarallax
-        >
-          <img className="jarallax-img" src="img/hero_general.jpg" alt="" />
-          <div
-            className="opacity-mask"
-            data-opacity-mask="rgba(0, 0, 0, 0.4)"
-          ></div>
-          {/*<div className="wave hero"></div>*/}
-        </div>
-        {/*/hero_single*/}
-
-        <div className="container margin_30_40">
+        <div className="container margin_30_40" style={{ paddingTop: '60px' }}>
           <div className="row">
             <div className="col-lg-3">
               <div className="main_profile edit_section">
@@ -26,13 +13,7 @@ const EditProfile = () => {
                   <div className="author_thumb veryfied">
                     <i className="bi bi-check"></i>
                     <figure>
-                      <img
-                        src="img/profile.svg"
-                        alt=""
-                        className="lazy"
-                        width="100"
-                        height="100"
-                      />
+                      <img src="img/profile.svg" alt="" className="lazy" width="100" height="100" />
                     </figure>
                   </div>
                 </div>
