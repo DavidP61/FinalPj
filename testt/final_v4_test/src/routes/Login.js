@@ -51,7 +51,7 @@ const Login = () => {
               </strong>
             </div>
           </form>
-          <div className="copy">© 2022 OTT</div>
+          <div className="copy">© 2022 PopCon</div>
         </aside>
       </div>
       {/*/login */}
