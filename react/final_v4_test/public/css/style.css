@@ -8046,7 +8046,8 @@ a.wallet_connect:hover h3 {
 }
 
 .margin_30_40 {
-  padding-top: 30px;
+  /*padding-top: 30px;*/
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 
@@ -8771,6 +8772,11 @@ ul.bullets li span {
 }
 
 /*-------- 5.5 Footer --------*/
+/*#wrapper{*/
+/*  height: auto;*/
+/*  min-height: 100%;*/
+/*  !*padding-bottom: 156px;*!*/
+/*}*/
 footer {
   background-color: var(--background-color-2);
   padding: 60px 0 35px 0;

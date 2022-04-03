@@ -5,19 +5,6 @@ const EditProfile = () => {
   return (
     <div>
       <main>
-        {/*<div*/}
-        {/*  className="hero_single inner_pages author_page jarallax"*/}
-        {/*  data-jarallax*/}
-        {/*>*/}
-        {/*  <img className="jarallax-img" src="img/hero_general.jpg" alt="" />*/}
-        {/*  <div*/}
-        {/*    className="opacity-mask"*/}
-        {/*    data-opacity-mask="rgba(0, 0, 0, 0.4)"*/}
-        {/*  ></div>*/}
-        {/*  /!*<div className="wave hero"></div>*!/*/}
-        {/*</div>*/}
-        {/*/hero_single*/}
-
         <div className="container margin_30_40">
           <div className="row">
             <div className="col-lg-3">
@@ -39,7 +26,8 @@ const EditProfile = () => {
                 <h1>admin</h1>
                 <ul>
                   <li>
-                    <Link to="/editProfile" className="active">
+                    <Link to="/editProfile">
+                      {/*<className="active"/>*/}
                       <i className="bi bi-person"></i>Edit profile
                     </Link>
                   </li>
@@ -67,12 +55,9 @@ const EditProfile = () => {
                 <div className="col-md-6">
                   <div className="form-group">
                     <label>OTT</label>
+                    <div className="row">
                     <input type="radio" />
-                    {/*<input*/}
-                    {/*  type="text"*/}
-                    {/*  className="form-control"*/}
-                    {/*  placeholder="@Geroge_lucas"*/}
-                    {/*/>*/}
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-12">
