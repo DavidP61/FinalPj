@@ -519,12 +519,12 @@ input[type='radio'] {
   padding-top: 24px;
 }
 
-.px-3 .text-center h1,
-h3,
-p {
-  margin: 0;
-  padding: 7px;
-}
+/*.px-3 .text-center h1,*/
+/*h3,*/
+/*p {*/
+/*  margin: 0;*/
+/*  padding: 7px;*/
+/*}*/
 
 .highlight {
   background-color: #7e2ad1;
@@ -576,4 +576,19 @@ p {
   background: #7e2ad1;
   background: -webkit-linear-gradient(to right, #b89cd4, #7e2ad1);
   background: linear-gradient(to right, #b89cd4, #7e2ad1);
+}
+
+/*======================================================
+
+***************** react-body-footer*****************
+
+========================================================*/
+#wrapper{
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+#ott_logos {
+  padding-top: 41px;
+  padding-bottom: 41px;
 }

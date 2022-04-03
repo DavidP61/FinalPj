@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <div className="container" id="wrapper">
+        <div className="container">
           <div className="row add_bottom_25">
             <div className="col-md-6">
               <ul className="footer-selector clearfix">
@@ -25,7 +25,7 @@ const Footer = () => {
                 <li>
                   <a href="#0">Terms and conditions</a>
                 </li>
-                <li>© 2022 Magellano</li>
+                <li>© 2022 PopCon</li>
               </ul>
             </div>
           </div>

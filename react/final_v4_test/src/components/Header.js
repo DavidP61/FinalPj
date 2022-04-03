@@ -20,16 +20,6 @@ const Header = () => {
               {/*<img src="img/logo-light-mode.svg" alt="" width="140" height="35" className="light" />*/}
             </a>
           </div>
-          {/*<ul className="top_menu">*/}
-          {/*    <li>*/}
-          {/*        <span className="color_mode_bt">*/}
-          {/*            <input id="theme_toggle" type="checkbox" name="theme_toggle"/>*/}
-          {/*            /!*<label htmlFor="theme_toggle"></label>*!/*/}
-          {/*        </span>*/}
-          {/*    </li>*/}
-          {/*    <li><a href="login.html" className="btn_access">Log In</a></li>*/}
-          {/*</ul>*/}
-          {/*/top_menu*/}
           <Link to="#0" className="open_close">
             <i className="bi bi-list" />
             <span>Menu</span>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const MainPage = () => {
   return (
     <div>
-      <main>
+      <main id="wrapper">
         <div id="carousel-home-2">
           <section id="slider">
             <input type="radio" name="slider" id="s1" defaultChecked />

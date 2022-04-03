@@ -5,11 +5,7 @@ const EditProfile = () => {
   return (
     <div>
       <main>
-<<<<<<< HEAD:testt/final_v4/src/routes/EditProfile.js
-        <div className="container margin_30_40" style={{ paddingTop: '60px' }}>
-=======
-        <div className="container margin_30_40">
->>>>>>> 0a5a3a5c93c39b8a16b4390235e7103c7c5058d0:testt/final_v4_test/src/routes/EditProfile.js
+        <div className="container margin_30_40" id="wrapper" style={{ paddingTop: 60 }}>
           <div className="row">
             <div className="col-lg-3">
               <div className="main_profile edit_section">
@@ -21,17 +17,11 @@ const EditProfile = () => {
                     </figure>
                   </div>
                 </div>
-                <h1>admin</h1>
+                <h1>user_id</h1>
                 <ul>
                   <li>
-                    <Link to="/editProfile">
-                      {/*<className="active"/>*/}
-                      <i className="bi bi-person"></i>Edit profile
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/editProfile">
-                      <i className="bi bi-gear"></i>Account settings
+                    <Link to="/editProfile" className="active">
+                      <i className="bi bi-person" ></i>Edit profile
                     </Link>
                   </li>
                   <li>
@@ -53,8 +43,37 @@ const EditProfile = () => {
                 <div className="col-md-6">
                   <div className="form-group">
                     <label>OTT</label>
-                    <div className="row">
-                    <input type="radio" />
+                    <div className="row col-lg-6 ps-lg-6">
+                      <div className="col-lg-4 ps-lg-12 netflix_edit">
+                        <img
+                            src="img/netflix_logo.jpeg"
+                            alt="netflix_logo"
+                            className="lazy"
+                            width="100"
+                            height="100"
+                        />
+                        <input type="radio"/>
+                      </div>
+                      <div className="col-lg-4 ps-lg-12 tving_edit">
+                        <img
+                            src="img/tving_logo.jpeg"
+                            alt="tving_logo"
+                            className="lazy"
+                            width="100"
+                            height="100"
+                        />
+                        <input type="radio"/>
+                      </div>
+                      <div className="col-lg-4 ps-lg-12 wavve_edit">
+                        <img
+                            src="img/wavve_logo.png"
+                            alt="wavve_logo"
+                            className="lazy"
+                            width="100"
+                            height="100"
+                        />
+                        <input type="radio"/>
+                      </div>
                     </div>
                   </div>
                 </div>

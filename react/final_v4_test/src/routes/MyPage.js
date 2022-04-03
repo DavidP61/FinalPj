@@ -5,11 +5,7 @@ const MyPage = () => {
   return (
     <div>
       <main>
-<<<<<<< HEAD:testt/final_v4/src/routes/MyPage.js
-        
-=======
->>>>>>> 0a5a3a5c93c39b8a16b4390235e7103c7c5058d0:testt/final_v4_test/src/routes/MyPage.js
-        <div className="container margin_30_40">
+        <div className="container margin_30_40" id="wrapper">
           <div className="row">
             <div className="col-lg-12 ps-lg-5">
               <div className="main_title version_2">
@@ -40,7 +36,7 @@ const MyPage = () => {
                 <ul>
                   <li>
                     <Link to="/myPage">
-                      <i className="bi bi-gear"></i>Email address
+                      <i className="bi bi-gear"></i>Email address : <span>user_id@popcon.com</span>
                     </Link>
                   </li>
                   <li>
@@ -53,7 +49,7 @@ const MyPage = () => {
             </div>
             <div className="col-lg-6 ps-lg-6">
               <div className="main_profile edit_section">
-                <div className="row">
+                <div className="row" id="ott_logos">
                   <div className="col-lg-4 ps-lg-12 author">
                     <div className="author_thumb veryfied">
                       <figure className="ott_logo">
@@ -65,7 +61,7 @@ const MyPage = () => {
                           height="100"
                         />
                       </figure>
-                      <h1>Netflix</h1>
+                      <p>Netflix</p>
                     </div>
                   </div>
                   <div className="col-lg-4 ps-lg-12 author">
@@ -79,7 +75,7 @@ const MyPage = () => {
                           height="100"
                         />
                       </figure>
-                      <h1>Tving</h1>
+                      <p>Tving</p>
                     </div>
                   </div>
                   <div className="col-lg-4 ps-lg-12 author">
@@ -96,44 +92,23 @@ const MyPage = () => {
                       <p className="ott_name">Wavve</p>
                     </div>
                   </div>
-                  <p className="text-end mt-4">
-                    <Link to="/editProfile" className="btn_1">
-                      Edit Profile
-                    </Link>
-                  </p>
+                  {/*<p className="text-end mt-4" style={{marginBottom:26}}>*/}
+                  {/*  <Link to="/editProfile" className="btn_1">*/}
+                  {/*    Edit Profile*/}
+                  {/*  </Link>*/}
+                  {/*</p>*/}
                 </div>
-                {/*<ul>*/}
-                {/*  <li>*/}
-                {/*    <a href="author-edit-profile.html" className="active">*/}
-                {/*      <i className="bi bi-person"></i>Edit profile*/}
-                {/*    </a>*/}
-                {/*  </li>*/}
-                {/*  <li>*/}
-                {/*    <a href="account-settings.html">*/}
-                {/*      <i className="bi bi-gear"></i>Account settings*/}
-                {/*    </a>*/}
-                {/*  </li>*/}
-                {/*  <li>*/}
-                {/*    <a href="#0">*/}
-                {/*      <i className="bi bi-box-arrow-right"></i>Log out*/}
-                {/*    </a>*/}
-                {/*  </li>*/}
-                {/*</ul>*/}
               </div>
               {/*/row*/}
             </div>
           </div>
+          <hr className="mt-4 mb-5"></hr>
+          <p className="text-end">
+            <Link to="/editProfile" className="btn_1">
+              Edit Profile
+            </Link>
+          </p>
           {/*/row*/}
-          {/*<div className="row">*/}
-          {/*  <div className="col-lg-12">*/}
-          {/*    <hr className="mt-3 mb-5"></hr>*/}
-          {/*    <p className="text-end mt-4">*/}
-          {/*      <Link to="/editProfile" className="btn_1">*/}
-          {/*        Edit Profile*/}
-          {/*      </Link>*/}
-          {/*    </p>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
         </div>
         {/*/container*/}
       </main>
