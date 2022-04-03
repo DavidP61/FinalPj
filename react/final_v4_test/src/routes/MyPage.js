@@ -5,6 +5,10 @@ const MyPage = () => {
   return (
     <div>
       <main>
+<<<<<<< HEAD:testt/final_v4/src/routes/MyPage.js
+        
+=======
+>>>>>>> 0a5a3a5c93c39b8a16b4390235e7103c7c5058d0:testt/final_v4_test/src/routes/MyPage.js
         <div className="container margin_30_40">
           <div className="row">
             <div className="col-lg-12 ps-lg-5">

@@ -5,7 +5,11 @@ const EditProfile = () => {
   return (
     <div>
       <main>
+<<<<<<< HEAD:testt/final_v4/src/routes/EditProfile.js
+        <div className="container margin_30_40" style={{ paddingTop: '60px' }}>
+=======
         <div className="container margin_30_40">
+>>>>>>> 0a5a3a5c93c39b8a16b4390235e7103c7c5058d0:testt/final_v4_test/src/routes/EditProfile.js
           <div className="row">
             <div className="col-lg-3">
               <div className="main_profile edit_section">
@@ -13,13 +17,7 @@ const EditProfile = () => {
                   <div className="author_thumb veryfied">
                     <i className="bi bi-check"></i>
                     <figure>
-                      <img
-                        src="img/profile.svg"
-                        alt=""
-                        className="lazy"
-                        width="100"
-                        height="100"
-                      />
+                      <img src="img/profile.svg" alt="" className="lazy" width="100" height="100" />
                     </figure>
                   </div>
                 </div>

@@ -46,6 +46,7 @@
   border-color: dodgerblue;
   box-shadow: 0 2px 4px rgba(0, 90, 156, 0.15);
 }
+/* 슬라이더 추가*/
 
 body {
   user-select: none;
@@ -64,7 +65,6 @@ input[type='radio'] {
   animation: animate 3s linear infinite;
 }
 
-/* 슬라이더 추가 (이슬기)*/
 #slider label {
   margin: auto;
   width: 63%;
@@ -76,6 +76,12 @@ input[type='radio'] {
   cursor: pointer;
   transition: transform 0.5s ease;
 }
+#carouselExampleInterval {
+  margin: auto;
+  height: auto;
+  display: block;
+}
+
 
 #s1:checked ~ #slide1,
 #s2:checked ~ #slide2,
@@ -337,15 +343,6 @@ input[type='radio'] {
   font-size: 0.875rem;
 }
 
-.footer-link-item .footer-link-list .footer-link,
-.footer-top form,
-.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span,
-.blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive,
-.blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner .post-thumb .blog-slider,
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote p,
-.error-section .section-wrapper .error-item .error-thumb,
-.or span,
-.or,
 .item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item,
 .item-desc-part .item-desc-content .details-tab .other-info-list .item-other-info .item-info-title,
 .item-desc-part .item-desc-content .nav-tabs .nav-link,
@@ -354,69 +351,22 @@ input[type='radio'] {
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active span,
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active,
 .media-wrapper .nav-tp-abs .nav-item .nav-link span,
-.info-card .info-card-content .info-list li .info-name,
-.profile-details .profile-nav .nav-tabs .dropdown,
-.profile-details .profile-nav .nav-tabs .nav-link.active,
-.profile-details .profile-nav .nav-tabs .nav-link .item-number,
-.profile-section .member-profile .profile-item .profile-information .profile-pic,
-.profile-section .member-profile .profile-item .profile-cover,
 .banner-section.style-1 .banner-wrapper,
 .banner-section,
-.live-icon,
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a,
-.header__nav-menu a,
-.header__nav-link[data-bs-toggle='dropdown'],
-.header__nav-item,
-.header__nav,
-.header__content,
-.select-wrapper.arrow-orange,
-.select-wrapper.arrow-blue,
-.widget.widget-search .search-wrapper,
 .scrollToTop i,
 .paginations ul li a,
 .custom-upload,
 .seller-icon,
 .veryfied,
-.nft-item-bottom .nft-thumb,
-.nft-item,
 .default-btn {
   position: relative;
 }
-.footer-section,
-.comments .comment-list .comment .com-content,
-.comments .comment-list .comment .com-image,
-.comments .comment-list .comment,
-.blog-section .main-blog .blog-wrapper .post-item.video-post .post-item-inner .post-thumb .embed-responsive,
-.blog-section .post-item-inner .post-thumb,
-.variation-item,
 .media-wrapper .tab-content .tab-pane .media-content .media-thumb,
-.profile-section .member-profile .profile-item .profile-information .profile-pic,
-.profile-section .member-profile .profile-item .profile-cover,
 .banner-section,
-.hot-section .hot-holder,
-.auction-section .auction-holder,
-.page-header-section.style-1,
-.widget.letest-product .widget-wrapper ul li .product-thumb,
-.widget.recipe-categori,
-.widget.widget-instagram ul.widget-wrapper li a,
-.widget .widget-header,
-.profile-widget .widget-title,
-.preloader,
-.custom-upload,
-.nft-item.collection-item .nft-coll-thumb,
-.nft-item,
-.default-btn,
-.nft-item.blog-item .nft-content h4 a,
-.nft-item .single-author h6 a,
-.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content h3 a,
-.blog-section .post-item-inner .post-content h3 > a,
-.blog-section .post-item-inner .post-content h4 > a,
-.widget.widget-post ul.widget-wrapper li .post-content a h6 {
+.default-btn {
   overflow: hidden;
 }
 
-.footer-link-item .footer-link-list .footer-link:before,
-.footer-top form button,
 .blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span::after,
 .blog-section
   .main-blog
@@ -451,12 +401,6 @@ input[type='radio'] {
 .banner_shape__1,
 .banner_shape__2,
 .live-icon svg,
-.page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a::before,
-.header__nav-link[data-bs-toggle='dropdown']:after,
-.header__nav-link[data-bs-toggle='dropdown']:before,
-.header__search button,
-.header__search,
-.header__btn,
 .select-wrapper.arrow-orange:after,
 .select-wrapper.arrow-blue:after,
 .widget.widget-search .search-wrapper button,
@@ -477,8 +421,6 @@ input[type='radio'] {
 .banner_shape__2 img,
 .banner_shape__1,
 .banner_shape__2,
-.header__actions,
-.header__logo,
 .widget.widget-post ul.widget-wrapper li .post-thumb a,
 .preloader,
 .explore-category .excat-item a {
@@ -496,9 +438,7 @@ input[type='radio'] {
 ***************** test-result*****************
 
 ========================================================*/
-.container {
-  padding: 24px;
-}
+/*  */
 .main-image {
   display: block;
   margin-left: auto;
@@ -571,7 +511,7 @@ p {
   border-radius: 5px;
   box-shadow: inset 3px 3px 10px #ccc;
 } */
-.progress-bar{
+.progress-bar {
   border-radius: 5px;
   background: #7e2ad1;
   background: -webkit-linear-gradient(to right, #b89cd4, #7e2ad1);
