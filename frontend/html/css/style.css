@@ -5737,7 +5737,8 @@ hr {
 
 /*General links color*/
 a {
-  color: #fee500;
+  /* color: #fee500; */
+  color: #fff;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;

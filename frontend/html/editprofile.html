@@ -1,10 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PopCon</title>
+
+    <!-- FAVICONS-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      href="img/apple-touch-icon-57x57-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="72x72"
+      href="img/apple-touch-icon-72x72-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="114x114"
+      href="img/apple-touch-icon-114x114-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="144x144"
+      href="img/apple-touch-icon-144x144-precomposed.png"
+    />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- SPECIFIC CSS -->
+    <link href="css/author.css" rel="stylesheet" />
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <header class="header_in clearfix element_to_stick">
+      <div class="layer"></div>
+      <!-- Opacity Mask Menu Mobile -->
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.svg" alt="" width="140" height="35" />
+          </a>
+        </div>
+        <a href="#0" class="open_close">
+          <i class="bi bi-list"></i><span>Menu</span>
+        </a>
+        <nav class="main-menu">
+          <div id="header_menu">
+            <a href="#0" class="open_close">
+              <i class="bi bi-x"></i>
+            </a>
+            <a href="index.html" class="logo_menu">
+              <img
+                src="img/logo-placeholder.png"
+                data-src="img/logo.svg"
+                alt=""
+                width="120"
+                height="30"
+                class="dark lazy"
+              />
+            </a>
+          </div>
+          <ul>
+            <li class="submenu">
+              <a href="index.html" class="show-submenu">Home</a>
+            </li>
+            <li class="submenu">
+              <a href="grid-listing-1.html" class="show-submenu">Explore</a>
+            </li>
+            <li class="submenu">
+              <a href="zzim.html" class="show-submenu">Like</a>
+            </li>
+            <li class="submenu">
+              <a href="#0" class="show-submenu">My page</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main></main>
+
+    <footer>
+      <div class="container">
+        <div class="row add_bottom_25">
+          <div class="col-md-6">
+            <ul class="footer-selector clearfix">
+              <li>
+                <div class="styled-select lang-selector">
+                  <select>
+                    <option value="English">English</option>
+                    <option value="Korean" selected>Korean</option>
+                  </select>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="additional_links">
+              <li><a href="#0">Terms and conditions</a></li>
+              <li>© 2022 PopCon</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

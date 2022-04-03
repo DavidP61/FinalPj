@@ -17,17 +17,11 @@ const EditProfile = () => {
                     </figure>
                   </div>
                 </div>
-                <h1>admin</h1>
+                <h1>user_id</h1>
                 <ul>
                   <li>
-                    <Link to="/editProfile">
-                      {/*<className="active"/>*/}
-                      <i className="bi bi-person"></i>Edit profile
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/editProfile">
-                      <i className="bi bi-gear"></i>Account settings
+                    <Link to="/editProfile" className="active">
+                      <i className="bi bi-person" ></i>Edit profile
                     </Link>
                   </li>
                   <li>
