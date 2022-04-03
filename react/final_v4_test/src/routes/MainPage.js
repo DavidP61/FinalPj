@@ -56,7 +56,10 @@ const MainPage = () => {
         </div>
         {/*/carousel*/}
         <div className="bg_gray">
-          <div className="container margin_120_90" style={{ paddingTop: '90px' }}>
+          <div
+            className="container margin_120_90"
+            style={{ paddingTop: "90px" }}
+          >
             <div className="main_title version_2">
               <span>
                 <em />
@@ -83,10 +86,10 @@ const MainPage = () => {
                   <div>
                     <h6>사내맞선</h6>
                     <span>
-                      <img src="img/Netflix2.png" width="20px" alt="" />
+                      <img src="img/netflix_logo.jpeg" width="20px" alt="" />
                     </span>
                     <span>
-                      <img src="img/wavve.webp" width="20px" alt="" />
+                      <img src="img/wavve_logo.png" width="20px" alt="" />
                     </span>
                   </div>
                 </a>
@@ -109,7 +112,7 @@ const MainPage = () => {
                   <div>
                     <h6>사내맞선</h6>
                     <span>
-                      <img src alt="" />
+                      <img src="img/netflix_logo.jpeg" width="20px" alt="" />
                     </span>
                   </div>
                 </a>
@@ -132,7 +135,7 @@ const MainPage = () => {
                   <div>
                     <h6>사내맞선</h6>
                     <span>
-                      <img src alt="" />
+                      <img src="img/netflix_logo.jpeg" width="20px" alt="" />
                     </span>
                   </div>
                 </a>
@@ -155,7 +158,8 @@ const MainPage = () => {
                   <div>
                     <h6>사내맞선</h6>
                     <span>
-                      <img src alt="" />
+                      <img src="img/tving_logo.jpeg" width="20px" alt="" />
+                      <img src="img/wavve_logo.png" width="20px" alt="" />
                     </span>
                   </div>
                 </a>
@@ -178,7 +182,7 @@ const MainPage = () => {
                   <div>
                     <h6>사내맞선</h6>
                     <span>
-                      <img src alt="" />
+                      <img src="img/wavve_logo.png" width="20px" alt="" />
                     </span>
                   </div>
                 </a>
@@ -201,7 +205,7 @@ const MainPage = () => {
                   <div>
                     <h6>사내맞선</h6>
                     <span>
-                      <img src alt="" />
+                      <img src="img/netflix_logo.jpeg" width="20px" alt="" />
                     </span>
                   </div>
                 </a>
@@ -224,7 +228,7 @@ const MainPage = () => {
                   <div>
                     <h6>사내맞선</h6>
                     <span>
-                      <img src alt="" />
+                      <img src="img/tving_logo.jpeg" width="20px" alt="" />
                     </span>
                   </div>
                 </a>
@@ -247,7 +251,8 @@ const MainPage = () => {
                   <div>
                     <h6>사내맞선</h6>
                     <span>
-                      <img src alt="" />
+                      {" "}
+                      <img src="img/netflix_logo.jpeg" width="20px" alt="" />
                     </span>
                   </div>
                 </a>
@@ -270,7 +275,8 @@ const MainPage = () => {
                   <div>
                     <h6>사내맞선</h6>
                     <span>
-                      <img src alt="" />
+                      <img src="img/netflix_logo.jpeg" width="20px" alt="" />
+                      <img src="img/tving_logo.jpeg" width="20px" alt="" />
                     </span>
                   </div>
                 </a>
@@ -278,7 +284,7 @@ const MainPage = () => {
             </div>
           </div>
         </div>
-      </main>{' '}
+      </main>{" "}
     </div>
   );
 };
