@@ -25,7 +25,7 @@ const Footer = () => {
                 <li>
                   <a href="#0">Terms and conditions</a>
                 </li>
-                <li>© 2022 Magellano</li>
+                <li>© 2022 PopCon</li>
               </ul>
             </div>
           </div>
