@@ -5742,7 +5742,9 @@ h6 {
 }
 
 p {
-  margin-bottom: 0px;
+  /*margin-bottom: 0px;*/
+  margin-top: 20px;
+  font-size: large;
 }
 
 strong {

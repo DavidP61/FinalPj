@@ -61,7 +61,7 @@ const MyPage = () => {
                           height="100"
                         />
                       </figure>
-                      <h1>Netflix</h1>
+                      <p>Netflix</p>
                     </div>
                   </div>
                   <div className="col-lg-4 ps-lg-12 author">
@@ -75,7 +75,7 @@ const MyPage = () => {
                           height="100"
                         />
                       </figure>
-                      <h1>Tving</h1>
+                      <p>Tving</p>
                     </div>
                   </div>
                   <div className="col-lg-4 ps-lg-12 author">
@@ -92,44 +92,17 @@ const MyPage = () => {
                       <p className="ott_name">Wavve</p>
                     </div>
                   </div>
-                  <p className="text-end mt-4">
+                  <p className="text-end mt-4" style={{marginBottom:26}}>
                     <Link to="/editProfile" className="btn_1">
                       Edit Profile
                     </Link>
                   </p>
                 </div>
-                {/*<ul>*/}
-                {/*  <li>*/}
-                {/*    <a href="author-edit-profile.html" className="active">*/}
-                {/*      <i className="bi bi-person"></i>Edit profile*/}
-                {/*    </a>*/}
-                {/*  </li>*/}
-                {/*  <li>*/}
-                {/*    <a href="account-settings.html">*/}
-                {/*      <i className="bi bi-gear"></i>Account settings*/}
-                {/*    </a>*/}
-                {/*  </li>*/}
-                {/*  <li>*/}
-                {/*    <a href="#0">*/}
-                {/*      <i className="bi bi-box-arrow-right"></i>Log out*/}
-                {/*    </a>*/}
-                {/*  </li>*/}
-                {/*</ul>*/}
               </div>
               {/*/row*/}
             </div>
           </div>
           {/*/row*/}
-          {/*<div className="row">*/}
-          {/*  <div className="col-lg-12">*/}
-          {/*    <hr className="mt-3 mb-5"></hr>*/}
-          {/*    <p className="text-end mt-4">*/}
-          {/*      <Link to="/editProfile" className="btn_1">*/}
-          {/*        Edit Profile*/}
-          {/*      </Link>*/}
-          {/*    </p>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
         </div>
         {/*/container*/}
       </main>
