@@ -43,7 +43,7 @@ const EditProfile = () => {
                 <div className="col-md-6">
                   <div className="form-group">
                     <label>OTT</label>
-                    <div className="col-lg-6 ps-lg-6 row">
+                    <div className="row col-lg-6 ps-lg-6">
                       <div className="col-lg-4 ps-lg-12 netflix_edit">
                         <img
                             src="img/netflix_logo.jpeg"
