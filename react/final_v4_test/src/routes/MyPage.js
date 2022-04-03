@@ -101,13 +101,13 @@ const MyPage = () => {
               </div>
               {/*/row*/}
             </div>
-            <hr className="mt-3 mb-5"></hr>
-            <p className="text-end">
-              <Link to="/editProfile" className="btn_1">
-                Edit Profile
-              </Link>
-            </p>
           </div>
+          <hr className="mt-4 mb-5"></hr>
+          <p className="text-end">
+            <Link to="/editProfile" className="btn_1">
+              Edit Profile
+            </Link>
+          </p>
           {/*/row*/}
         </div>
         {/*/container*/}
