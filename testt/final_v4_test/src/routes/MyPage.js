@@ -5,7 +5,10 @@ const MyPage = () => {
   return (
     <div>
       <main>
+<<<<<<< HEAD:testt/final_v4/src/routes/MyPage.js
         
+=======
+>>>>>>> 0a5a3a5c93c39b8a16b4390235e7103c7c5058d0:testt/final_v4_test/src/routes/MyPage.js
         <div className="container margin_30_40">
           <div className="row">
             <div className="col-lg-12 ps-lg-5">
@@ -15,8 +18,8 @@ const MyPage = () => {
                 </span>
                 <h2>My Page</h2>
               </div>
-              {/*/row*/}
             </div>
+
             <div className="col-lg-6">
               <div className="main_profile edit_section">
                 <div className="author">
@@ -35,11 +38,6 @@ const MyPage = () => {
                 </div>
                 <h1>user_id</h1>
                 <ul>
-                  {/*<li>*/}
-                  {/*  <Link to="/editProfile" className="active">*/}
-                  {/*    <i className="bi bi-person"></i>Edit profile*/}
-                  {/*  </Link>*/}
-                  {/*</li>*/}
                   <li>
                     <Link to="/myPage">
                       <i className="bi bi-gear"></i>Email address
