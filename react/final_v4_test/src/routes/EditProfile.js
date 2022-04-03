@@ -5,8 +5,7 @@ const EditProfile = () => {
   return (
     <div>
       <main>
-        <div className="container margin_30_40" style={{ paddingTop: '60px' }}>
-        {/*<div className="container margin_30_40">*/}
+        <div className="container margin_30_40" id="wrapper" style={{ paddingTop: 60 }}>
           <div className="row">
             <div className="col-lg-3">
               <div className="main_profile edit_section">

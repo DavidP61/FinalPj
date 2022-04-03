@@ -577,3 +577,14 @@ input[type='radio'] {
   background: -webkit-linear-gradient(to right, #b89cd4, #7e2ad1);
   background: linear-gradient(to right, #b89cd4, #7e2ad1);
 }
+
+/*======================================================
+
+***************** react-body*****************
+
+========================================================*/
+#wrapper{
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}

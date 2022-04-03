@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <div className="container" id="wrapper">
+        <div className="container">
           <div className="row add_bottom_25">
             <div className="col-md-6">
               <ul className="footer-selector clearfix">

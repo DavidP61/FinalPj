@@ -5,7 +5,7 @@ const MyPage = () => {
   return (
     <div>
       <main>
-        <div className="container margin_30_40">
+        <div className="container margin_30_40" id="wrapper">
           <div className="row">
             <div className="col-lg-12 ps-lg-5">
               <div className="main_title version_2">
