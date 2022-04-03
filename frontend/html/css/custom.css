@@ -82,7 +82,6 @@ input[type='radio'] {
   display: block;
 }
 
-
 #s1:checked ~ #slide1,
 #s2:checked ~ #slide2,
 #s3:checked ~ #slide3,
@@ -483,37 +482,55 @@ p {
 ***************** test-page*****************
 
 ========================================================*/
-.container-test h1 {
-  padding: 48px 0;
-  font-size: px;
-  text-align: center;
-}
-.container-test {
-  margin: 0;
-  padding: 0;
-  width: 80%;
-  margin: 80px auto;
-}
 
-.row .col-lg-4-test {
-  flex-basis: 50%;
-  max-width: 100%;
+/* #wrapper{
+  height: auto;
+  min-height: 100%;
+  padding-bottom:30px ;
 }
-.feature-img {
-  margin: auto;
+.cover-footer{
+  height: 40px;
   position: relative;
-  border-radius: 3px;
-  overflow: hidden;
-}
+  transform: translateY(-100%);
+} */
+
 /* 
 .progress-bar::-webkit-progress-bar {
   background: #f0f0f0;
   border-radius: 5px;
   box-shadow: inset 3px 3px 10px #ccc;
 } */
-.progress-bar {
-  border-radius: 5px;
-  background: #7e2ad1;
-  background: -webkit-linear-gradient(to right, #b89cd4, #7e2ad1);
-  background: linear-gradient(to right, #b89cd4, #7e2ad1);
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fideIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fideOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

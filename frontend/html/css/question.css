@@ -1,0 +1,28 @@
+.progress-bar {
+  border-radius: 5px;
+  background: #7e2ad1;
+  background: -webkit-linear-gradient(to right, #b89cd4, #7e2ad1);
+  background: linear-gradient(to right, #b89cd4, #7e2ad1);
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+}
+#question {
+  display: none;
+}
+.img-choice {
+  position: relative;
+  transition: 0.5s ease;
+}
+.choice {
+  position: absolute;
+  visibility: hidden;
+}
+.img-choice:hover {
+  opacity: 0.7;
+}
+.choice:hover {
+  visibility: visible;
+}
