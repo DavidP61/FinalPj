@@ -36,7 +36,7 @@ const MyPage = () => {
                 <ul>
                   <li>
                     <Link to="/myPage">
-                      <i className="bi bi-gear"></i>Email address
+                      <i className="bi bi-gear"></i>Email address : <span>user_id@popcon.com</span>
                     </Link>
                   </li>
                   <li>
@@ -49,7 +49,7 @@ const MyPage = () => {
             </div>
             <div className="col-lg-6 ps-lg-6">
               <div className="main_profile edit_section">
-                <div className="row">
+                <div className="row" id="ott_logos">
                   <div className="col-lg-4 ps-lg-12 author">
                     <div className="author_thumb veryfied">
                       <figure className="ott_logo">
@@ -92,15 +92,21 @@ const MyPage = () => {
                       <p className="ott_name">Wavve</p>
                     </div>
                   </div>
-                  <p className="text-end mt-4" style={{marginBottom:26}}>
-                    <Link to="/editProfile" className="btn_1">
-                      Edit Profile
-                    </Link>
-                  </p>
+                  {/*<p className="text-end mt-4" style={{marginBottom:26}}>*/}
+                  {/*  <Link to="/editProfile" className="btn_1">*/}
+                  {/*    Edit Profile*/}
+                  {/*  </Link>*/}
+                  {/*</p>*/}
                 </div>
               </div>
               {/*/row*/}
             </div>
+            <hr className="mt-3 mb-5"></hr>
+            <p className="text-end">
+              <Link to="/editProfile" className="btn_1">
+                Edit Profile
+              </Link>
+            </p>
           </div>
           {/*/row*/}
         </div>
