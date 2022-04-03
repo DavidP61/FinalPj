@@ -24,7 +24,8 @@ const EditProfile = () => {
                 <h1>admin</h1>
                 <ul>
                   <li>
-                    <Link to="/editProfile" className="active">
+                    <Link to="/editProfile">
+                      {/*<className="active"/>*/}
                       <i className="bi bi-person"></i>Edit profile
                     </Link>
                   </li>
@@ -52,12 +53,9 @@ const EditProfile = () => {
                 <div className="col-md-6">
                   <div className="form-group">
                     <label>OTT</label>
+                    <div className="row">
                     <input type="radio" />
-                    {/*<input*/}
-                    {/*  type="text"*/}
-                    {/*  className="form-control"*/}
-                    {/*  placeholder="@Geroge_lucas"*/}
-                    {/*/>*/}
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-12">

@@ -496,9 +496,9 @@ input[type='radio'] {
 ***************** test-result*****************
 
 ========================================================*/
-.container {
-  padding: 24px;
-}
+/*.container {*/
+/*  padding: 24px;*/
+/*}*/
 .main-image {
   display: block;
   margin-left: auto;
@@ -565,7 +565,7 @@ p {
   border-radius: 3px;
   overflow: hidden;
 }
-/* 
+/*
 .progress-bar::-webkit-progress-bar {
   background: #f0f0f0;
   border-radius: 5px;
