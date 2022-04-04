@@ -1,13 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
-import RadioBtn from "styled-components";
 
 const EditProfile = () => {
-  const [inputStatus, setInputStatus] = useState('')
-
-  const handleClickRadioButton=(radioBtnName)=>{
-    setInputStatus(radioBtnName)
-  }
   return (
     <div>
       <main>
@@ -58,8 +52,6 @@ const EditProfile = () => {
                             width="100"
                             height="100"
                         />
-                        <RadioBtn type="radio" id="radio" checked={inputStatus === 'radio'} onClick={()=>handleClickRadioButton('radio')}/>
-                        <label htmlFor="radio">Radio</label>
                         </div>
                       <div className="col-lg-4 ps-lg-6 tving_edit">
                         <img
