@@ -35,7 +35,7 @@ const CoverPage = () => {
               <div className="col-md-3">
                 <div className="banner_shape__item">
                   <img
-                      src="https://images.justwatch.com/poster/181828105/s592/alpointeu.{format}	"
+                      src="https://images.justwatch.com/poster/181828105/s592/alpointeu.{format}   "
                       alt="banner-item Image"
                   />
                 </div>
@@ -43,7 +43,7 @@ const CoverPage = () => {
               <div className="col-md-3">
                 <div className="banner_shape__item">
                   <img
-                      src="https://images.justwatch.com/poster/123954864/s592/panyi-miro-opilriawa-segaeyi-yeolsoe.{format}	"
+                      src="https://images.justwatch.com/poster/123954864/s592/panyi-miro-opilriawa-segaeyi-yeolsoe.{format}   "
                       alt="banner-item Image"
                   />
                 </div>
@@ -51,7 +51,7 @@ const CoverPage = () => {
               <div className="col-md-3">
                 <div className="banner_shape__item">
                   <img
-                      src="https://images.justwatch.com/poster/11088470/s592/the-good-the-bad-the-weird.{format}	"
+                      src="https://images.justwatch.com/poster/11088470/s592/the-good-the-bad-the-weird.{format}   "
                       alt="banner-item Image"
                   />
                 </div>

@@ -61,7 +61,7 @@ const MyPage = () => {
                           height="100"
                         />
                       </figure>
-                      <p>Netflix</p>
+                      <p className="ott_name" id="ott_name">Netflix</p>
                     </div>
                   </div>
                   <div className="col-lg-4 ps-lg-12 author">
@@ -75,7 +75,7 @@ const MyPage = () => {
                           height="100"
                         />
                       </figure>
-                      <p>Tving</p>
+                      <p className="ott_name" id="ott_name">Tving</p>
                     </div>
                   </div>
                   <div className="col-lg-4 ps-lg-12 author">
@@ -89,7 +89,7 @@ const MyPage = () => {
                           height="100"
                         />
                       </figure>
-                      <p className="ott_name">Wavve</p>
+                      <p className="ott_name" id="ott_name">Wavve</p>
                     </div>
                   </div>
                   {/*<p className="text-end mt-4" style={{marginBottom:26}}>*/}
