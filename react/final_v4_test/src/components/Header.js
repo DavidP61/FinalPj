@@ -13,11 +13,10 @@ const Header = () => {
               <img
                 src="img/popcon_logo_test.png"
                 alt=""
-                width="155.44"
-                height="30"
+                width="160.62"
+                height="31"
                 className="dark"
               />
-              {/*<img src="img/logo-light-mode.svg" alt="" width="140" height="35" className="light" />*/}
             </Link>
           </div>
           <Link to="#0" className="open_close">
