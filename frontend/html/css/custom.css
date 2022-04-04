@@ -4,7 +4,7 @@
 }
 .sausage-links:before,
 .sausage-links:after {
-  content: "";
+  content: '';
   height: calc(100% - 2em);
   pointer-events: none;
   position: absolute;
@@ -52,7 +52,7 @@ body {
   user-select: none;
 }
 
-input[type="radio"] {
+input[type='radio'] {
   display: none;
 }
 
@@ -140,6 +140,7 @@ input[type="radio"] {
   z-index: 1;
   padding-top: 120px;
   padding-bottom: 120px;
+  height: 100vh;
 }
 @media (min-width: 992px) {
   .banner-section.style-1 .banner-wrapper {
@@ -264,15 +265,14 @@ input[type="radio"] {
   font-size: 1.125rem;
   font-weight: 700;
   color: #ebf0ff;
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 .banner-content .banner-btns {
   gap: 30px;
 }
 
 .banner-image {
-  animation: floating 3s cubic-bezier(0.45, -0.36, 0.72, 1.03) infinite
-    alternate;
+  animation: floating 3s cubic-bezier(0.45, -0.36, 0.72, 1.03) infinite alternate;
 }
 
 @keyframes floating {
@@ -344,12 +344,7 @@ input[type="radio"] {
 }
 
 .item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item,
-.item-desc-part
-  .item-desc-content
-  .details-tab
-  .other-info-list
-  .item-other-info
-  .item-info-title,
+.item-desc-part .item-desc-content .details-tab .other-info-list .item-other-info .item-info-title,
 .item-desc-part .item-desc-content .nav-tabs .nav-link,
 .help-item.style-2,
 .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb,
@@ -372,14 +367,7 @@ input[type="radio"] {
   overflow: hidden;
 }
 
-.blog-section
-  .main-blog
-  .blog-wrapper
-  .post-item
-  .tags-section
-  .tags
-  li
-  span::after,
+.blog-section .main-blog .blog-wrapper .post-item .tags-section .tags li span::after,
 .blog-section
   .main-blog
   .blog-wrapper
@@ -396,27 +384,11 @@ input[type="radio"] {
   .post-thumb
   .blog-slider
   .blog-slider-next,
-.blog-section
-  .main-blog
-  .blog-wrapper
-  .post-item
-  .post-item-inner
-  .post-content
-  blockquote
-  p::before,
+.blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content blockquote p::before,
 .or::before,
 .or::after,
-.item-desc-part
-  .item-desc-content
-  .history-tab
-  .item-histo-list
-  .histo-item::before,
-.item-desc-part
-  .item-desc-content
-  .details-tab
-  .other-info-list
-  .item-other-info
-  .item-info-title:after,
+.item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item::before,
+.item-desc-part .item-desc-content .details-tab .other-info-list .item-other-info .item-info-title:after,
 .item-desc-part .item-desc-content .nav-tabs .nav-link.active:after,
 .help-item.style-2 span,
 .media-wrapper .tab-content .tab-pane .media-content .album .album-thumb::after,
@@ -424,12 +396,7 @@ input[type="radio"] {
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active span:before,
 .media-wrapper .nav-tp-abs .nav-item .nav-link span:before,
 .info-card .info-card-content .info-list li .info-name:after,
-.profile-section
-  .member-profile
-  .profile-item
-  .profile-information
-  .profile-pic
-  .custom-upload,
+.profile-section .member-profile .profile-item .profile-information .profile-pic .custom-upload,
 .profile-section .member-profile .profile-item .profile-cover .custom-upload,
 .banner_shape__1,
 .banner_shape__2,
@@ -440,21 +407,16 @@ input[type="radio"] {
 .nft-search-input button,
 .preloader .preloader-inner .preloader-icon span,
 .preloader .preloader-inner,
-.custom-upload input[type="file"],
+.custom-upload input[type='file'],
 .seller-icon:after,
 .veryfied:after,
 .nft-item-bottom .nft-thumb .nft-countdown {
   position: absolute;
-  content: "";
+  content: '';
 }
 .or::before,
 .or::after,
-.profile-section
-  .member-profile
-  .profile-item
-  .profile-information
-  .profile-pic
-  img,
+.profile-section .member-profile .profile-item .profile-information .profile-pic img,
 .banner_shape__1 img,
 .banner_shape__2 img,
 .banner_shape__1,
