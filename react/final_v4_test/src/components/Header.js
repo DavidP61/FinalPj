@@ -9,16 +9,16 @@ const Header = () => {
         {/*Opacity Mask Menu Mobile*/}
         <div className="container">
           <div className="logo">
-            <a href="index.html">
+            <Link to="/mainPage">
               <img
-                src="img/logo.svg"
+                src="img/popcon_logo_test.png"
                 alt=""
                 width="140"
                 height="35"
                 className="dark"
               />
               {/*<img src="img/logo-light-mode.svg" alt="" width="140" height="35" className="light" />*/}
-            </a>
+            </Link>
           </div>
           <Link to="#0" className="open_close">
             <i className="bi bi-list" />
