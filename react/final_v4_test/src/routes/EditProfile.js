@@ -44,49 +44,67 @@ const EditProfile = () => {
                 <div className="col-md-12">
                   <div className="form-group">
                     <label>OTT</label>
+
                     <div className="row col-md-12 ps-lg-12 edit_ott_logos">
-                      <div className="col-lg-4 ps-lg-6 netflix_edit">
-                        <img
-                            src="img/netflix_logo.jpeg"
-                            alt="netflix_logo"
-                            className="lazy"
-                            width="100"
-                            height="100"
-                        />
-                        <Form>
+
+                      <div className="row col-lg-4 ps-lg-6 netflix_edit">
+                        <div className="col-md-7">
+                          <img
+                              src="img/netflix_logo.jpeg"
+                              alt="netflix_logo"
+                              className="lazy"
+                              width="100"
+                              height="100"
+                          />
+                        </div>
+                        <div className="col-md-5">
                           <Form.Check
                               type="switch"
                               id="custom-switch"
-                              label="Netflix"
-                          /><p>Netflix</p>
-                          {/*<Form.Check*/}
-                          {/*    disabled*/}
-                          {/*    type="switch"*/}
-                          {/*    label="disabled switch"*/}
-                          {/*    id="disabled-custom-switch"*/}
-                          {/*/>*/}
-                        </Form>
+                              // label="Netflix"
+                          />
+                          <p>Netflix</p>
                         </div>
-                      <div className="col-lg-4 ps-lg-6 tving_edit">
-                        <img
+                      </div>
+
+                      <div className="row col-lg-4 ps-lg-6 tving_edit">
+                        <div className="col-md-7">
+                          <img
                             src="img/tving_logo.jpeg"
                             alt="tving_logo"
                             className="lazy"
                             width="100"
                             height="100"
-                        />
-                        <input type="radio"/>
+                          />
+                        </div>
+                        <div className="col-md-5">
+                          <Form.Check
+                              type="switch"
+                              id="custom-switch"
+                          />
+                          <p>Tving</p>
+                        </div>
                       </div>
-                      <div className="col-lg-4 ps-lg-6 wavve_edit">
-                        <img
-                            src="img/wavve_logo.png"
-                            alt="wavve_logo"
-                            className="lazy"
-                            width="100"
-                            height="100"
-                        />
-                        <input type="radio"/>
+
+                      <div className="row col-lg-4 ps-lg-6 wavve_edit">
+                        <div className="col-md-7">
+                          <img
+                              src="img/wavve_logo.png"
+                              alt="wavve_logo"
+                              className="lazy"
+                              width="100"
+                              height="100"
+                          />
+                        </div>
+                        <div className="col-md-5">
+                          <Form.Check
+                              type="switch"
+                              id="custom-switch"
+                          />
+                          <p>Wavve</p>
+                        </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
