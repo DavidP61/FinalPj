@@ -3,15 +3,16 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div id="login_bg" className="dark-theme">
+      <div id="wrapper">
+        <div id="login_bg" className="dark-theme">
       <div id="login">
         <aside className="">
           <figure>
-            <Link to="/mainPage" className="logo_account">
+            <Link to="/coverPage" className="logo_account">
               <img
-                src="img/logo.svg"
+                src="img/popcon_logo_test.png"
                 alt=""
-                width="140"
+                width="181.35"
                 height="35"
                 className="dark"
               />
@@ -45,6 +46,7 @@ const Login = () => {
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/common_func.js"></script>
     </div>
+      </div>
   );
 };
 

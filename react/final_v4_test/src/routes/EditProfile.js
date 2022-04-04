@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import { Form, Check } from 'react-bootstrap';
 
 const EditProfile = () => {
   return (
@@ -40,49 +41,79 @@ const EditProfile = () => {
                 <h2>Edit profile</h2>
               </div>
               <div className="row mb-4">
-                <div className="col-md-6">
+                <div className="col-md-12">
                   <div className="form-group">
                     <label>OTT</label>
-                    <div className="row col-lg-6 ps-lg-6">
-                      <div className="col-lg-4 ps-lg-12 netflix_edit">
-                        <img
-                            src="img/netflix_logo.jpeg"
-                            alt="netflix_logo"
-                            className="lazy"
-                            width="100"
-                            height="100"
-                        />
-                        <input type="radio"/>
+
+                    <div className="row col-md-12 ps-lg-12 edit_ott_logos">
+
+                      <div className="row col-lg-4 ps-lg-6 netflix_edit">
+                        <div className="col-md-7">
+                          <img
+                              src="img/netflix_logo.jpeg"
+                              alt="netflix_logo"
+                              className="lazy"
+                              width="100"
+                              height="100"
+                          />
+                        </div>
+                        <div className="col-md-5">
+                          <Form.Check
+                              type="switch"
+                              id="custom-switch"
+                              // label="Netflix"
+                          />
+                          <p>Netflix</p>
+                        </div>
                       </div>
-                      <div className="col-lg-4 ps-lg-12 tving_edit">
-                        <img
+
+                      <div className="row col-lg-4 ps-lg-6 tving_edit">
+                        <div className="col-md-7">
+                          <img
                             src="img/tving_logo.jpeg"
                             alt="tving_logo"
                             className="lazy"
                             width="100"
                             height="100"
-                        />
-                        <input type="radio"/>
+                          />
+                        </div>
+                        <div className="col-md-5">
+                          <Form.Check
+                              type="switch"
+                              id="custom-switch"
+                          />
+                          <p>Tving</p>
+                        </div>
                       </div>
-                      <div className="col-lg-4 ps-lg-12 wavve_edit">
-                        <img
-                            src="img/wavve_logo.png"
-                            alt="wavve_logo"
-                            className="lazy"
-                            width="100"
-                            height="100"
-                        />
-                        <input type="radio"/>
+
+                      <div className="row col-lg-4 ps-lg-6 wavve_edit">
+                        <div className="col-md-7">
+                          <img
+                              src="img/wavve_logo.png"
+                              alt="wavve_logo"
+                              className="lazy"
+                              width="100"
+                              height="100"
+                          />
+                        </div>
+                        <div className="col-md-5">
+                          <Form.Check
+                              type="switch"
+                              id="custom-switch"
+                          />
+                          <p>Wavve</p>
+                        </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
-                <div className="col-md-12">
-                  <div className="form-group">
-                    <label>Bio</label>
-                    {/*<input type="text" className="form-control"/>*/}
-                  </div>
-                </div>
+                {/*<div className="col-md-12">*/}
+                {/*  <div className="form-group">*/}
+                {/*    <label>Bio</label>*/}
+                {/*    /!*<input type="text" className="form-control"/>*!/*/}
+                {/*  </div>*/}
+                {/*</div>*/}
               </div>
               {/*/row*/}
               <hr className="mt-3 mb-5"></hr>

@@ -360,7 +360,7 @@ input[type='radio'] {
 .profile-details .profile-nav .nav-tabs .nav-link .item-number,
 .profile-section .member-profile .profile-item .profile-information .profile-pic,
 .profile-section .member-profile .profile-item .profile-cover,
-.banner-section.style-1 .banner-wrapper,
+/*.banner-section.style-1 .banner-wrapper,*/
 .banner-section,
 .live-icon,
 .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a,
@@ -591,4 +591,16 @@ input[type='radio'] {
 #ott_logos {
   padding-top: 41px;
   padding-bottom: 41px;
+}
+.edit_ott_logos{
+  padding-top: 10px;
+}
+.banner-section.style-1 .banner-wrapper {
+  z-index: 1;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  height: 100vh;
+}
+#ott_name:hover{
+  color: #7E2AD1;
 }

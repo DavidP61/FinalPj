@@ -11,10 +11,8 @@ const Footer = () => {
                 <li>
                   <div className="styled-select lang-selector">
                     <select>
-                      <option defaultValue="English">English</option>
-                      <option value="French">French</option>
-                      <option value="Spanish">Spanish</option>
-                      <option value="Russian">Russian</option>
+                      <option defaultValue="Korean">Korean</option>
+                      <option value="English">English</option>
                     </select>
                   </div>
                 </li>
