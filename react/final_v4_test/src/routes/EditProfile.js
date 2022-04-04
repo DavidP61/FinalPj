@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import { Form, Check } from 'react-bootstrap';
 
 const EditProfile = () => {
   return (
@@ -52,6 +53,19 @@ const EditProfile = () => {
                             width="100"
                             height="100"
                         />
+                        <Form>
+                          <Form.Check
+                              type="switch"
+                              id="custom-switch"
+                              label="Netflix"
+                          /><p>Netflix</p>
+                          {/*<Form.Check*/}
+                          {/*    disabled*/}
+                          {/*    type="switch"*/}
+                          {/*    label="disabled switch"*/}
+                          {/*    id="disabled-custom-switch"*/}
+                          {/*/>*/}
+                        </Form>
                         </div>
                       <div className="col-lg-4 ps-lg-6 tving_edit">
                         <img
