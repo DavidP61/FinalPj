@@ -1,7 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import RadioBtn from "styled-components";
 
 const EditProfile = () => {
+  const [inputStatus, setInputStatus] = useState('')
+
+  const handleClickRadioButton=(radioBtnName)=>{
+    setInputStatus(radioBtnName)
+  }
   return (
     <div>
       <main>
@@ -40,11 +46,11 @@ const EditProfile = () => {
                 <h2>Edit profile</h2>
               </div>
               <div className="row mb-4">
-                <div className="col-md-6">
+                <div className="col-md-12">
                   <div className="form-group">
                     <label>OTT</label>
-                    <div className="row col-lg-6 ps-lg-6">
-                      <div className="col-lg-4 ps-lg-12 netflix_edit">
+                    <div className="row col-md-12 ps-lg-12 edit_ott_logos">
+                      <div className="col-lg-4 ps-lg-6 netflix_edit">
                         <img
                             src="img/netflix_logo.jpeg"
                             alt="netflix_logo"
@@ -52,9 +58,10 @@ const EditProfile = () => {
                             width="100"
                             height="100"
                         />
-                        <input type="radio"/>
-                      </div>
-                      <div className="col-lg-4 ps-lg-12 tving_edit">
+                        <RadioBtn type="radio" id="radio" checked={inputStatus === 'radio'} onClick={()=>handleClickRadioButton('radio')}/>
+                        <label htmlFor="radio">Radio</label>
+                        </div>
+                      <div className="col-lg-4 ps-lg-6 tving_edit">
                         <img
                             src="img/tving_logo.jpeg"
                             alt="tving_logo"
@@ -64,7 +71,7 @@ const EditProfile = () => {
                         />
                         <input type="radio"/>
                       </div>
-                      <div className="col-lg-4 ps-lg-12 wavve_edit">
+                      <div className="col-lg-4 ps-lg-6 wavve_edit">
                         <img
                             src="img/wavve_logo.png"
                             alt="wavve_logo"
@@ -77,12 +84,12 @@ const EditProfile = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-12">
-                  <div className="form-group">
-                    <label>Bio</label>
-                    {/*<input type="text" className="form-control"/>*/}
-                  </div>
-                </div>
+                {/*<div className="col-md-12">*/}
+                {/*  <div className="form-group">*/}
+                {/*    <label>Bio</label>*/}
+                {/*    /!*<input type="text" className="form-control"/>*!/*/}
+                {/*  </div>*/}
+                {/*</div>*/}
               </div>
               {/*/row*/}
               <hr className="mt-3 mb-5"></hr>
