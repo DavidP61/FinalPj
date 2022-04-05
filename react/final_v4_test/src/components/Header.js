@@ -1,7 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import OpenMenu from "./OpenMenu";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(isOpen => !isOpen);
+  }
   return (
     <div>
       <header className="header_in clearfix element_to_stick">
@@ -47,7 +52,12 @@ const Header = () => {
                 />
               </Link>
             </div>
-            <ul>
+            <ul className="ham_wrapper">
+              <li><OpenMenu onClick={()=>toggleMenu()}></OpenMenu> </li>
+              <li><img src="img/popcon_logo_test.png"/></li>
+              <li><button variant="contained"></button>hamburger</li>
+            </ul>
+            <ul className={isOpen ? "show-menu" : "hide-menu"}>
               <li className="submenu">
                 <Link to="/mainPage" className="show-submenu">
                   Home
