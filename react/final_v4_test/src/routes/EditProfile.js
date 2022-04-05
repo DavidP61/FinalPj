@@ -43,11 +43,11 @@ const EditProfile = () => {
               <div className="row mb-4">
                 <div className="col-md-12">
                   <div className="form-group">
-                    <label>OTT</label>
+                    <p>OTT</p>
 
                     <div className="row col-md-12 ps-lg-12 edit_ott_logos">
 
-                      <div className="row col-lg-4 ps-lg-6 netflix_edit">
+                      <div className="row col-lg-4 ps-lg-6 netflix_edit" id="ott_edit">
                         <div className="col-md-7">
                           <img
                               src="img/netflix_logo.jpeg"
@@ -67,7 +67,7 @@ const EditProfile = () => {
                         </div>
                       </div>
 
-                      <div className="row col-lg-4 ps-lg-6 tving_edit">
+                      <div className="row col-lg-4 ps-lg-6 tving_edit" id="ott_edit">
                         <div className="col-md-7">
                           <img
                             src="img/tving_logo.jpeg"
@@ -86,7 +86,7 @@ const EditProfile = () => {
                         </div>
                       </div>
 
-                      <div className="row col-lg-4 ps-lg-6 wavve_edit">
+                      <div className="row col-lg-4 ps-lg-6 wavve_edit" id="ott_edit">
                         <div className="col-md-7">
                           <img
                               src="img/wavve_logo.png"
