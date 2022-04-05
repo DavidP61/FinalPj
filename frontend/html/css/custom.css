@@ -1,6 +1,7 @@
 /* Sausage Links Styling */
 .sausage-links {
   position: relative;
+  font-size: 14.5px;
 }
 .sausage-links:before,
 .sausage-links:after {
