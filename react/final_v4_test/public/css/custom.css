@@ -601,6 +601,6 @@ input[type='radio'] {
   padding-bottom: 120px;
   height: 100vh;
 }
-#ott_name:hover{
+#ott_hover:hover, #ott_edit:hover{
   color: #7E2AD1;
 }

@@ -7352,7 +7352,7 @@ ul.top_menu > li a.btn_access:hover {
 .author_list a.author {
   border: 1px solid var(--border-color-1);
   border-radius: var(--border-radius-medium);
-  padding: 15px 15px 15px 55px;
+  padding: 15px 15px 15px 15px;
   position: relative;
   margin-bottom: 20px;
   color: var(--body-text-color);

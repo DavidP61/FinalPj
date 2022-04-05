@@ -50,7 +50,7 @@ const MyPage = () => {
             <div className="col-lg-6 ps-lg-6">
               <div className="main_profile edit_section">
                 <div className="row" id="ott_logos">
-                  <div className="col-lg-4 ps-lg-12 author">
+                  <div className="col-lg-4 ps-lg-12 author" id="ott_hover">
                     <div className="author_thumb veryfied">
                       <figure className="ott_logo">
                         <img
@@ -64,7 +64,7 @@ const MyPage = () => {
                       <p className="ott_name" id="ott_name">Netflix</p>
                     </div>
                   </div>
-                  <div className="col-lg-4 ps-lg-12 author">
+                  <div className="col-lg-4 ps-lg-12 author" id="ott_hover">
                     <div className="author_thumb veryfied">
                       <figure>
                         <img
@@ -78,7 +78,7 @@ const MyPage = () => {
                       <p className="ott_name" id="ott_name">Tving</p>
                     </div>
                   </div>
-                  <div className="col-lg-4 ps-lg-12 author">
+                  <div className="col-lg-4 ps-lg-12 author" id="ott_hover">
                     <div className="author_thumb veryfied">
                       <figure>
                         <img
