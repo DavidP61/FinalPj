@@ -1,12 +1,10 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import OpenMenu from "./OpenMenu";
+import {slide as Menu} from "react-burger-menu";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsOpen(isOpen => !isOpen);
-  }
+
   return (
     <div>
       <header className="header_in clearfix element_to_stick">
@@ -24,40 +22,30 @@ const Header = () => {
               />
             </Link>
           </div>
-          <Link to="#0" className="open_close">
+          {/*<div id="burger_menu">*/}
+          {/*  <OpenMenu pageWrapId={"page-wrap"} outerContainerId={"burger_menu"}/>*/}
+          {/*</div>*/}
+          <Link to="##" className="open_close">
             <i className="bi bi-list" />
             <span>Menu</span>
           </Link>
           <nav className="main-menu">
             <div id="header_menu">
-              <Link to="#0" className="open_close">
+              <Link to="##" className="open_close">
                 <i className="bi bi-x" />
               </Link>
-              <Link to="index.html" className="logo_menu">
+              <Link to="/mainPage" className="logo_menu">
                 <img
-                  src="img/logo-placeholder.png"
-                  // data-src="img/logo.svg"
+                  src="img/popcon_logo_test.png"
                   alt=""
-                  width="120"
-                  height="30"
+                  width="160.62"
+                  height="31"
                   className="dark lazy"
-                />
-                <img
-                  src="img/logo-placeholder.png"
-                  // data-src="img/logo-light-mode.svg"
-                  alt=""
-                  width="120"
-                  height="30"
-                  className="light lazy"
                 />
               </Link>
             </div>
-            <ul className="ham_wrapper">
-              <li><OpenMenu onClick={()=>toggleMenu()}></OpenMenu> </li>
-              <li><img src="img/popcon_logo_test.png"/></li>
-              <li><button variant="contained"></button>hamburger</li>
-            </ul>
-            <ul className={isOpen ? "show-menu" : "hide-menu"}>
+
+            <ul>
               <li className="submenu">
                 <Link to="/mainPage" className="show-submenu">
                   Home

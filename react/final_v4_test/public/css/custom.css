@@ -604,3 +604,8 @@ input[type='radio'] {
 #ott_hover:hover, #ott_edit:hover{
   color: #7E2AD1;
 }
+@media (max-width: 991px) {
+    #netflix_edit, #tving_edit, #wavve_edit{
+      padding-left: inherit;
+    }
+}
