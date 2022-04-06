@@ -73,7 +73,7 @@ const EditProfile = () => {
                           <img
                             src="img/tving_logo.jpeg"
                             alt="tving_logo"
-                            className="lazy"
+                            id="lazy"
                             width="100"
                             height="100"
                           />

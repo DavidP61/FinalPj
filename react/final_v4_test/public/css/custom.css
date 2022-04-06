@@ -601,6 +601,9 @@ input[type='radio'] {
   padding-bottom: 120px;
   height: 100vh;
 }
+#lazy{
+  border-radius: 5%;
+}
 #ott_hover:hover, #ott_edit:hover{
   color: #7E2AD1;
 }
