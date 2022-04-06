@@ -52,7 +52,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="submenu">
-                <Link to="/recoPage" className="show-submenu">
+                <Link to="/explorePage" className="show-submenu">
                   Explore
                 </Link>
               </li>

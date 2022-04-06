@@ -6,10 +6,12 @@ import EditProfile from "../routes/EditProfile";
 import Header from "./Header";
 import Footer from "./Footer";
 import MainPage from "../routes/MainPage";
-import RecoPage from "../routes/RecoPage";
+import ExplorePage from "../routes/ExplorePage";
 import LikePage from "../routes/LikePage";
 import TestPage from "../routes/TestPage";
 import CoverPage from "../routes/CoverPage";
+import DetailPage from "../routes/DetailPage";
+import SearchPage from "../routes/SearchPage";
 
 const AppRouter = () => {
   return (
@@ -21,7 +23,9 @@ const AppRouter = () => {
         <Route path="/testPage" element={<TestPage />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/mainPage" element={<MainPage />}></Route>
-        <Route path="/recoPage" element={<RecoPage />}></Route>
+        <Route path="/searchPage" element={<SearchPage />}></Route>
+        <Route path="/explorePage" element={<ExplorePage />}></Route>
+        <Route path="/detailPage" element={<DetailPage />}></Route>
         <Route path="/likePage" element={<LikePage />}></Route>
         <Route path="/myPage" element={<MyPage />}></Route>
         <Route path="/editProfile" element={<EditProfile />}></Route>
