@@ -1,8 +1,8 @@
 const main = document.querySelector('#main');
 const qna = document.querySelector('#qna');
 const result = document.querySelector('#result');
-const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-const endPoint = 13;
+const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; //태그수
+const endPoint = 13; //문제
 function calResult() {
   console.log(select);
   var result = select.indexOf(Math.max(...select));
