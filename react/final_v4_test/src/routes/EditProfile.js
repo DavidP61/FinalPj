@@ -47,8 +47,8 @@ const EditProfile = () => {
 
                     <div className="row col-md-12 ps-lg-12 edit_ott_logos">
 
-                      <div className="row col-lg-4 ps-lg-6 netflix_edit" id="ott_edit">
-                        <div className="col-md-7">
+                      <div className="row col-lg-4 ps-lg-6" id="ott_edit">
+                        <div className="col-md-7" id="netflix_edit">
                           <img
                               src="img/netflix_logo.jpeg"
                               alt="netflix_logo"
@@ -65,14 +65,15 @@ const EditProfile = () => {
                           />
                           <p>Netflix</p>
                         </div>
+                        <div className="col-md-2"/>
                       </div>
 
-                      <div className="row col-lg-4 ps-lg-6 tving_edit" id="ott_edit">
-                        <div className="col-md-7">
+                      <div className="row col-lg-4 ps-lg-6" id="ott_edit">
+                        <div className="col-md-7" id="tving_edit">
                           <img
                             src="img/tving_logo.jpeg"
                             alt="tving_logo"
-                            className="lazy"
+                            id="lazy"
                             width="100"
                             height="100"
                           />
@@ -86,8 +87,8 @@ const EditProfile = () => {
                         </div>
                       </div>
 
-                      <div className="row col-lg-4 ps-lg-6 wavve_edit" id="ott_edit">
-                        <div className="col-md-7">
+                      <div className="row col-lg-4 ps-lg-6" id="ott_edit">
+                        <div className="col-md-7" id="wavve_edit">
                           <img
                               src="img/wavve_logo.png"
                               alt="wavve_logo"

@@ -8,17 +8,13 @@
   min-height: 100vh;
   width: 100%;
 }
-
 #login,
 #register {
   box-shadow: 3px 0 30px rgba(0, 0, 0, 0.2);
-  width: 430px;
-  padding: 30px 45px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  overflow-y: auto;
-  background-color: var(--background-color-2);
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #36313d;
   min-height: 100vh;
 }
 #login figure,
