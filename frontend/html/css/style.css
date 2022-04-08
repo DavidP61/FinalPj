@@ -10236,3 +10236,10 @@ img.mfp-img {
 .dark-theme .popup_content .wrapper .light {
   display: none;
 }
+
+.container margin_60_40_search {
+  padding-top: 25px;
+}
+.col-xl-5 col-lg-5_search {
+  padding-left: 35px;
+}
