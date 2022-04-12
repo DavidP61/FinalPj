@@ -21,13 +21,13 @@ const EditProfile = () => {
                 <h1>user_id</h1>
                 <ul>
                   <li>
-                    <Link to="/editProfile" className="active">
-                      <i className="bi bi-person" ></i>Edit profile
+                    <Link to="/editProfile">
+                      <i className="bi bi-person" ></i>OTT 수정하기
                     </Link>
                   </li>
                   <li>
                     <Link to="/login">
-                      <i className="bi bi-box-arrow-right"></i>Log out
+                      <i className="bi bi-box-arrow-right"></i>로그아웃
                     </Link>
                   </li>
                 </ul>
@@ -38,12 +38,12 @@ const EditProfile = () => {
                 <span>
                   <em></em>
                 </span>
-                <h2>Edit profile</h2>
+                <h2>OTT 수정</h2>
               </div>
               <div className="row mb-4">
                 <div className="col-md-12">
                   <div className="form-group">
-                    <p>OTT</p>
+                    <p>OTT 목록</p>
 
                     <div className="row col-md-12 ps-lg-12 edit_ott_logos">
 
@@ -120,7 +120,7 @@ const EditProfile = () => {
               <hr className="mt-3 mb-5"></hr>
               <p className="text-end mt-4">
                 <Link to="/myPage" className="btn_1">
-                  Save changes
+                  저장하기
                 </Link>
               </p>
             </div>
