@@ -9,7 +9,7 @@ const Header = () => {
     <div>
       <Navbar collapseOnSelect expand="lg" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand as={Link} to="/coverPage">
             <img
               src="./img/popcon_logo_test.png"
               height="30"

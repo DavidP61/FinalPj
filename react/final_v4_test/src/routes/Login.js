@@ -26,13 +26,13 @@ const Login = () => {
                   className="kakao_logo col-2"
                   src="img/KakaoTalk_logo.png"
                 />{" "}
-                Start with Kakao
+                카카오로 시작하기
               </div>
             </Link>
             <div className="text-center add_top_10">
-              New to PopCon?{" "}
+              팝콘은 처음이신가요?{" "}
               <strong>
-                <Link to="/#0">Start with Kakao!</Link>
+                <Link to="/#0">카카오로 시작해보세요!</Link>
               </strong>
             </div>
           </form>
