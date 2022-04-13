@@ -12,7 +12,7 @@ const MyPage = () => {
                 <span>
                   <em></em>
                 </span>
-                <h2>My Page</h2>
+                <h2>마이 페이지</h2>
               </div>
             </div>
 
@@ -36,12 +36,12 @@ const MyPage = () => {
                 <ul>
                   <li>
                     <Link to="/myPage">
-                      <i className="bi bi-gear"></i>Email address : <span>user_id@popcon.com</span>
+                      <i className="bi bi-gear"></i>이메일 : <span>user_id@popcon.com</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="/login">
-                      <i className="bi bi-box-arrow-right"></i>Log out
+                      <i className="bi bi-box-arrow-right"></i>로그아웃
                     </Link>
                   </li>
                 </ul>
@@ -105,7 +105,7 @@ const MyPage = () => {
           <hr className="mt-4 mb-5"></hr>
           <p className="text-end">
             <Link to="/editProfile" className="btn_1">
-              Edit Profile
+              OTT 수정하기
             </Link>
           </p>
           {/*/row*/}

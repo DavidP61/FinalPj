@@ -193,7 +193,7 @@ const ExplorePage = () => {
                     <Link to="#0" className="wish_bt"
                     ><i className="bi bi-heart-fill"></i
                     ></Link>
-                    {movie.details_view_count}
+                    view: {movie.details_view_count}
                   </li>
                 </ul>
               </div>
